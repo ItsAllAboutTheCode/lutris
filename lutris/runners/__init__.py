@@ -1,6 +1,7 @@
 """Runner loaders"""
 
 __all__ = [
+    "ares",
     "atari800",
     "cemu",
     "dolphin",
