@@ -16,7 +16,7 @@ class reicast(Runner):
     human_name = _("Reicast")
     description = _("Sega Dreamcast emulator")
     platforms = [_("Sega Dreamcast")]
-    runner_executable = "reicast/reicast.elf"
+    runner_executable = "reicast.elf"
     entry_point_option = "iso"
     flatpak_id = "org.flycast.Flycast"
     joypads = None

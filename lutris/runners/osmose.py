@@ -12,7 +12,7 @@ class osmose(Runner):
     human_name = _("Osmose")
     description = _("Sega Master System Emulator")
     platforms = [_("Sega Master System")]
-    runner_executable = "osmose/osmose"
+    runner_executable = "osmose"
     game_options = [
         {
             "option": "main_file",

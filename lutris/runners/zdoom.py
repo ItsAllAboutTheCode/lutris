@@ -13,7 +13,7 @@ class zdoom(Runner):
     description = _("GZDoom Game Engine")
     human_name = _("GZDoom")
     platforms = [_("Linux")]
-    runner_executable = "zdoom/gzdoom"
+    runner_executable = "gzdoom"
     flatpak_id = "org.zdoom.GZDoom"
     game_options = [
         {

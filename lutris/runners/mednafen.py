@@ -51,7 +51,7 @@ class mednafen(Runner):
         (_("WonderSwan"), "wswan"),
         (_("Virtual Boy"), "vb"),
     )
-    runner_executable = "mednafen/bin/mednafen"
+    runner_executable = "bin/mednafen"
     game_options = [
         {
             "option": "main_file",

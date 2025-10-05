@@ -3,7 +3,7 @@
     "description": "Atari 2600 emulator",
     "platforms": ["Atari 2600"],
     "runnable_alone": "True",
-    "runner_executable": "stella/bin/stella",
+    "runner_executable": "bin/stella",
     "flatpak_id": "io.github.stella_emu.Stella",
     "game_options": [
         {

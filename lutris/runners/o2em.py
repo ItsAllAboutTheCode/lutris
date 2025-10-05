@@ -19,7 +19,7 @@ class o2em(Runner):
         _("Brandt Jopac"),
     )
     bios_path = os.path.expanduser("~/.o2em/bios")
-    runner_executable = "o2em/o2em"
+    runner_executable = "o2em"
 
     checksums = {
         "o2rom": "562d5ebf9e030a40d6fabfc2f33139fd",

@@ -13,7 +13,7 @@ class mupen64plus(Runner):
     human_name = _("Mupen64Plus")
     description = _("Nintendo 64 emulator")
     platforms = [_("Nintendo 64")]
-    runner_executable = "mupen64plus/mupen64plus"
+    runner_executable = "mupen64plus"
     game_options = [
         {
             "option": "main_file",

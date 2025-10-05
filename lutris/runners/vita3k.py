@@ -19,7 +19,7 @@ class vita3k(Runner):
     platforms = [_("Sony PlayStation Vita")]
     description = _("Sony PlayStation Vita emulator")
     runnable_alone = True
-    runner_executable = "vita3k/Vita3K-x86_64.AppImage"
+    runner_executable = "Vita3K-x86_64.AppImage"
     entry_point_option = "title_id"
     flatpak_id = None
     download_url = "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage"

@@ -16,7 +16,7 @@ class hatari(Runner):
     platforms = [_("Atari ST")]
     runnable_alone = True
     flatpak_id = "org.tuxfamily.hatari"
-    runner_executable = "hatari/bin/hatari"
+    runner_executable = "bin/hatari"
     entry_point_option = "disk-a"
 
     game_options = [

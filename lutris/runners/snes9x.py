@@ -19,7 +19,7 @@ class snes9x(Runner):
     human_name = _("Snes9x")
     platforms = [_("Nintendo SNES")]
     runnable_alone = True
-    runner_executable = "snes9x/bin/snes9x-gtk"
+    runner_executable = "bin/snes9x-gtk"
     flatpak_id = "com.snes9x.Snes9x"
     game_options = [
         {

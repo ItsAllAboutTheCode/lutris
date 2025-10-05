@@ -14,7 +14,7 @@ class easyrpg(Runner):
     platforms = [_("Linux")]
     runnable_alone = True
     entry_point_option = "project_path"
-    runner_executable = "easyrpg/easyrpg-player"
+    runner_executable = "easyrpg-player"
     download_url = "https://easyrpg.org/downloads/player/0.8/easyrpg-player-0.8-linux.tar.gz"
 
     game_options = [

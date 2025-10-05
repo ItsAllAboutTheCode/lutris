@@ -13,7 +13,7 @@ class jzintv(Runner):
     human_name = _("jzIntv")
     description = _("Intellivision Emulator")
     platforms = [_("Intellivision")]
-    runner_executable = "jzintv/bin/jzintv"
+    runner_executable = "bin/jzintv"
     game_options = [
         {
             "option": "main_file",

@@ -14,7 +14,7 @@ class yuzu(Runner):
     platforms = [_("Nintendo Switch")]
     description = _("Nintendo Switch emulator")
     runnable_alone = True
-    runner_executable = "yuzu/yuzu-mainline.AppImage"
+    runner_executable = "yuzu-mainline.AppImage"
     flatpak_id = "org.yuzu_emu.yuzu"
     game_options = [
         {

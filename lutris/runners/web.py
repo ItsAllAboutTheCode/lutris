@@ -160,7 +160,7 @@ class web(Runner):
             ),
         },
     ]
-    runner_executable = "web/electron/electron"
+    runner_executable = "electron/electron"
 
     def get_env(self, os_env=True, disable_runtime=False):
         env = super().get_env(os_env, disable_runtime=disable_runtime)

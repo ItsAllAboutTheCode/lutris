@@ -69,7 +69,7 @@ class libretro(Runner):
     human_name = _("Libretro")
     description = _("Multi-system emulator")
     runnable_alone = True
-    runner_executable = "retroarch/retroarch"
+    runner_executable = "retroarch"
     flatpak_id = "org.libretro.RetroArch"
 
     game_options = [

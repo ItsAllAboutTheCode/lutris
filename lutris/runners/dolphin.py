@@ -19,7 +19,7 @@ class dolphin(Runner):
         "libOpenGL.so.0",
     ]
     runnable_alone = True
-    runner_executable = "dolphin/dolphin-emu"
+    runner_executable = "dolphin-emu"
     flatpak_id = "org.DolphinEmu.dolphin-emu"
     game_options = [
         {

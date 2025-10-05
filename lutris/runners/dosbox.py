@@ -17,7 +17,7 @@ class dosbox(Runner):
     description = _("MS-DOS emulator")
     platforms = [_("MS-DOS")]
     runnable_alone = True
-    runner_executable = "dosbox/dosbox"
+    runner_executable = "dosbox"
     flatpak_id = "io.github.dosbox-staging"
     game_options = [
         {

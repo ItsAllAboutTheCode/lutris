@@ -10,7 +10,7 @@ class xemu(Runner):
     platforms = [_("Xbox")]
     description = _("Xbox emulator")
     runnable_alone = True
-    runner_executable = "xemu/xemu"
+    runner_executable = "xemu"
     flatpak_id = "app.xemu.xemu"
     game_options = [
         {

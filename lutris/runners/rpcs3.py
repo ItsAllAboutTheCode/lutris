@@ -13,7 +13,7 @@ class rpcs3(Runner):
     description = _("PlayStation 3 emulator")
     platforms = [_("Sony PlayStation 3")]
     runnable_alone = True
-    runner_executable = "rpcs3/rpcs3"
+    runner_executable = "rpcs3"
     flatpak_id = "net.rpcs3.RPCS3"
     game_options = [
         {

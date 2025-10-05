@@ -14,7 +14,7 @@ class ryujinx(Runner):
     platforms = [_("Nintendo Switch")]
     description = _("Nintendo Switch emulator")
     runnable_alone = True
-    runner_executable = "ryujinx/publish/Ryujinx"
+    runner_executable = "publish/Ryujinx"
     flatpak_id = "io.github.ryubing.Ryujinx"
     download_url = "https://lutris.nyc3.digitaloceanspaces.com/runners/ryujinx/ryujinx-1.0.7074-linux_x64.tar.gz"
 

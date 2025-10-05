@@ -13,7 +13,7 @@ class pcsx2(Runner):
     description = _("PlayStation 2 emulator")
     platforms = [_("Sony PlayStation 2")]
     runnable_alone = True
-    runner_executable = "pcsx2/PCSX2"
+    runner_executable = "PCSX2"
     flatpak_id = "net.pcsx2.PCSX2"
     game_options = [
         {

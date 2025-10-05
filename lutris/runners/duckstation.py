@@ -14,7 +14,7 @@ class duckstation(Runner):
     description = _("PlayStation 1 Emulator")
     platforms = [_("Sony PlayStation")]
     runnable_alone = True
-    runner_executable = "duckstation/DuckStation-x64.AppImage"
+    runner_executable = "DuckStation-x64.AppImage"
     flatpak_id = "org.duckstation.DuckStation"
     config_dir = os.path.expanduser("~/.local/share/duckstation/")
     config_file = os.path.join(config_dir, "settings.ini")

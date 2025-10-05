@@ -182,7 +182,7 @@ class fsuae(Runner):
         ("400%", "400"),
         ("800%", "800"),
     ]
-    runner_executable = "fs-uae/fs-uae"
+    runner_executable = "fs-uae"
     game_options = [
         {
             "option": "main_file",
