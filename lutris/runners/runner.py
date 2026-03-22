@@ -52,7 +52,7 @@ class Runner:  # pylint: disable=too-many-public-methods
     """Generic runner (base class for other runners)."""
 
     multiple_versions = False
-    platforms: list[str] = []
+    _platforms: dict[str, str] = {}
     runnable_alone = False
     game_options = []
     runner_options = []
@@ -172,8 +172,36 @@ class Runner:  # pylint: disable=too-many-public-methods
             return cast(str, self.game_data.get("discord_client_id"))
         return None
 
+    @property
+    def platforms(self) -> list[str]:
+        """
+        Backwards compatbility, retrieve the platform as list using the values
+        """
+        return list(self._platforms.values())
+
+    @platforms.setter
+    def platforms(self, platforms: list[str]) -> None:
+        """
+        Setter for platform dictionary, set the platforms a list
+        """
+        self._platforms = {platform: platform for platform in platforms}
+
+    @property
+    def platform_dict(self) -> dict[str, str]:
+        """
+        Return platforms as a dictionary of lutris name to runner supported name
+        """
+        return self._platforms
+
+    @platform_dict.setter
+    def platform_dict(self, platforms: dict[str, str]) -> None:
+        """
+        Setter for platform dictionary, set the platforms a dict
+        """
+        self._platforms = platforms.copy()
+
     def get_platform(self) -> str:
-        return self.platforms[0]
+        return next(iter(self._platforms.values()))
 
     def get_runner_options(self) -> list[RunnerOptionDict]:
         runner_options = self.runner_options[:]
